@@ -1,0 +1,16 @@
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    overflow: auto;
+    height: 100vh;
+}
+
+@media (min-height: 1250px) and (max-height: 1800px) {
+    .homepage {
+        min-height: auto;
+    }
+}
+

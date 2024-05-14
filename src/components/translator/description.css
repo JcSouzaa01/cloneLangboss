@@ -6,15 +6,12 @@
 }
 
 .language {
-    font-family: "Kranky", serif;
+    font-family: "Lilita One", sans-serif;
     font-size: 50px;
-    user-select: none;
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 65px;
-
 }
 
 .languageHistory {
@@ -26,7 +23,7 @@
 
 .textHistory {
     min-height: 100px;
-    background-color: red;
+    background-color: #facf39;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -46,10 +43,28 @@
 .description {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
-    color: white;
+    color: black;
     font-size: 15px;
     width: 750px;
     text-shadow: black solid 1px;
     margin-bottom: 0px;
     margin-top: 0px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 780px){
+    .languageHistory{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .descriptionImage{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .textHistory {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 290px;
+    }
 }

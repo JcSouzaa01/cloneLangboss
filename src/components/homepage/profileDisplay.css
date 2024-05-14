@@ -2,37 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: -30px;
 }
-
-.profileImage {
-    width: 40px;
-    height: 40px;
-}
-
-.profileIcon {
-    border-radius: 5px;
-    width: 100px;
-    height: 40px;
-    cursor: pointer;
-    padding: 5px;
-    margin: 50px 0px 10px 0px;
-    background-color: #FACF39;
-}
-
-.profileDisplay {
-    background-color: rgba(14, 12, 12, 0.268);
-    width: 120px;
-    height: 100px;
-    border-radius: 5px;
-    margin-top: 110px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .toggle {
     border-radius: 50%;
     width: 20px;
@@ -46,7 +16,6 @@
     border: none;
 
 }
-
 .button {
     margin: 5px;
     padding: 5px;
@@ -60,7 +29,6 @@
     background-size: cover;
     background-position: center;
 }
-
 .button-icon {
     padding: 2px;
     background-color: rgb(255, 245, 245);

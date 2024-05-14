@@ -1,12 +1,13 @@
 .Main{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
     height: 100%;
+    gap: 50px;
 }
-.symbol {
+.symbol2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,28 +69,16 @@
     width: 600px;
 }
 
-@media screen and (max-width: 2000px) {
-
-  
-}
-
 @media screen and (max-width: 750px) {
 
     .culture {
         width: 500px;
         height: 120px;
     }
-    .starting {
-        margin-left: -50px;
-    }
-
     .countries {
         width: 450px;
     }
-
-    
 }
-
 
 @media screen and (max-width: 580px) {
 
@@ -97,10 +86,6 @@
         width: 420px;
         height: 110px;
     }
-    .starting {
-        margin-left: -10px;
-    }
-
 }
 
 @media screen and (max-width: 450px) {
@@ -119,33 +104,5 @@
         margin: 0px 0px 20px 0px;
     }
 
-}
-
-
-@media screen and (max-width: 340px) {
-
-    .culture {
-        width: 280px;
-        height: 80px;
-    }
-    .starting {
-        margin-left: 0px;
-        font-size: 10px;
-    }
-
-    .countries {
-        width: 250px;
-    }
-
-    .logo {
-        width: 80px;
-        height: 80px;
-    }
-
-    .name, .slogan {
-        
-        font-weight: 50;
-    }
-    
 }
 

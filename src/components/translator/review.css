@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Kranky&family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&display=swap');
 
-.Review {
+/*.Review {
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
-}
+}*/
 
 .languageInformations {
     display: flex;
@@ -17,8 +17,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 203px;
+    justify-content: flex-end;
+    height: 180px;
 }
 
 .stars{
@@ -54,8 +54,8 @@
 }
 
 .toplang{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .reachness, .planetOrbit {
@@ -65,8 +65,9 @@
 }
 
 .reachness {
-    height: 203px;
-
+    height: 180px;
+    justify-content: flex-end;
+    gap: 5px;
 }
 
 .countries3 {
@@ -97,18 +98,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 203px;
+    justify-content: flex-end;
+    height: 180px;
+    gap: 20px;
 }
 
 .reviewText {
-    font-family: "Hanalei Fill", system-ui;
+    font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
     width: 310px;
     margin-bottom: 0px;
-    margin-top: 20px;
+    margin-top: 0px;
+    text-align: center;
 }
 
 @media only screen and (max-width:780px){

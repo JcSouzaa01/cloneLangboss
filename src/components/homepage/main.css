@@ -39,12 +39,10 @@
 }
 
 .culture {
-    
     border: solid #FACF39 3px;
     border-left: 0px;
-    width: 600px;
-    height: 140px;
     border-radius: 2px;
+    width: 100%;
 }
 
 .starting {
@@ -55,6 +53,8 @@
     font-weight:100;
     text-transform: uppercase;
     font-size: 12px;
+    margin-left: 10px;
+    margin-right: 15px;
 }
 .chooseLang{
     margin-bottom: 0px;
@@ -68,39 +68,23 @@
     width: 600px;
 }
 
-@media screen and (max-width: 750px) {
-
-    .culture {
-        width: 500px;
-        height: 120px;
-    }
+@media screen and (max-width: 655px) {
     .countries {
         width: 450px;
     }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 520px) {
 
-    .culture {
-        width: 420px;
-        height: 110px;
-    }
 }
 
 @media screen and (max-width: 450px) {
-
-    .culture {
-        width: 320px;
-        height: 100px;
-    }
     .starting {
-        margin-left: 0px;
         font-size: 10px;
     }
 
     .countries {
-        width: 250px;
-        margin: 0px 0px 20px 0px;
+        width: 200px;
     }
 
 }

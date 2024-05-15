@@ -32,15 +32,14 @@
 }
 
 .monthsDuration {
-    background-color: red;
-    width: 150px;
-    border-radius: 10px;
-    height: 35px;
-    display: flex;
-    justify-content: space-around;
     align-items: center;
-    color: white;
-    user-select: none;
+    background-color: #facf39;
+    border-radius: 5px;
+    color: #000;
+    display: flex;
+    height: 35px;
+    justify-content: space-evenly;
+    width: 150px;
 }
 
 .tempDuration{

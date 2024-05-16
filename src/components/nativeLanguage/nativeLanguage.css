@@ -57,7 +57,6 @@
 
 @media screen and (max-width: 480px) {
     .nativeCountries {
-        width: 95%; 
-        background-color: rgb(27, 26, 26);
+        width: 95%;
     }
 }

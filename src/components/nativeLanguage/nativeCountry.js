@@ -6,7 +6,6 @@ const NativeCountry = ({nativeCountry, id, name, translationBackground, backgrou
     return (
         <div key={id} className="nativeCountry">
             <Link 
-            
             to={`/homepage/?nativeCountryName=${encodeURIComponent(name)}
             &nativeBackgroundTranslation=${encodeURIComponent(translationBackground)}
             &nativeBackground=${encodeURIComponent(background)}
@@ -19,7 +18,7 @@ const NativeCountry = ({nativeCountry, id, name, translationBackground, backgrou
             &nativeCountry2=${encodeURIComponent(country2)}
             &nativeCountry3=${encodeURIComponent(country3)}
             &nativeCountry4=${encodeURIComponent(country4)}
-            `}> 
+            `}>
             <img className="nativeCountry-image" src={nativeCountry} alt="country" ></img>
             <h3 className="nativeCountry-name">{name}</h3>
             <img className="nativeTranslationBackground" src={translationBackground} alt="translation.background"></img>

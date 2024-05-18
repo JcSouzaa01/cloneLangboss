@@ -3,8 +3,6 @@ import './header.css'
 import ProfileDisplay from "./profileDisplay";
 
  const Header = (props) => {
-    
-
 
     return (
     <div className="header" style={{
